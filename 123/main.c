@@ -3,8 +3,6 @@
 #include <math.h>
 #include <iostream>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int main(int argc, char *argv[]) {
     double a, b, c;
     double x1, x2, d;
@@ -35,9 +33,8 @@ int main(int argc, char *argv[]) {
             printf("Korney net\n");
         }
 
-        // Âîïðîñ ïîëüçîâàòåëþ, õî÷åò ëè îí ïðîäîëæèòü ââîä íîâûõ çíà÷åíèé
         printf("\nContinue? (y/n)\n");
-        scanf(" %c", &choice); // Îáðàòèòå âíèìàíèå íà ïðîáåë ïåðåä %c — ýòî íóæíî äëÿ ïðîïóñêà ñèìâîëà íîâîé ñòðîêè ïîñëå ïðåäûäóùåãî ââîäà
+        scanf(" %c", &choice); 
     } while (choice == 'y' || choice == 'Y');
 
     return 0;
